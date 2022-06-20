@@ -24,13 +24,20 @@
     <a href="index.html" class="logo"><img src="image/Screenshot_1.png"alt=""></a>
 
     <nav class="navbar">
-        <a href="index.html">Trang chủ</a>
-        <a href="about.html">Giới thiệu</a>
-        <a href="pet.html">Thú cưng</a>
-        <a href="accessory.html">Phụ kiện</a>
-        <a href="service.html">Dịch vụ</a>
-        <a href="news.html">Tin tức</a>
-        <a href="contact.html">Liên hệ</a>
+        <ul class="main-menu">
+            <li> <a href="index.html">Trang chủ</a></li>
+            <li><a href="about.html">Giới thiệu</a></li>
+            <li> <a href="pet.html">Thú cưng
+                <ul class="sub-menu"></a>
+                    <li><a href="dog.html">Chó</a></li>
+                    <li><a href="cat.html">Mèo</a></li>
+                </ul>
+            </li>
+            <li> <a href="accessory.html">Phụ kiện</a></li>
+            <li><a href="service.html">Dịch vụ</a></li>
+            <li> <a href="news.html">Tin tức</a></li>
+            <li><a href="contact.html">Liên hệ</a></li>
+        </ul>
 
     </nav>
 
@@ -42,42 +49,66 @@
 
     <form action="" class="login-form">
         <h3>Đăng nhập</h3>
-        <input type="email" name="" placeholder="Nhập địa chỉ email" id="" class="box">
-        <input type="password" name="" placeholder="Nhập mật khẩu" id="" class="box">
+        <input type="email" name="" placeholder="Enter your email" id="" class="box">
+        <input type="password" name="" placeholder="Enter your password" id="" class="box">
         <div class="remember">
             <input type="checkbox" name="" id="remember-me">
             <label for="remember-me">Ghi đăng nhập</label>
         </div>
-        <input type="submit" value="Đăng nhập" class="btn">
+        <input type="submit" value="sign in" class="btn">
         <div class="links">
-            <a href="#">Quên mật khẩu?</a>
-            <a href="#">Đăng ký</a>
+            <a href="">Quên mật khẩu?</a>
+            <a href="#">Đăng ký</a>a
         </div>
     </form>
 
 </header>
 
- <section class="tintuc" id="" >
+ <section class="tintuc" >
      <h1 class="heading"> Tin Tức-Tạp Chí</h1>
-     <div class="tintuc">
-         <div style=" display: flex; flex-wrap: wrap; flex-direction: row-reverse; justify-content: center;">
-            <div class="image">
-                <img src="image/chamsoc_chocon.jpg" alt="" >
-                <a href="https://baovechomeo.com/cach-nuoi-va-cham-soc-cho-con-khi-moi-mua.html" target="_blank"><p style="font-size: medium; color: black; ">
-                   Cần làm gì sau khi mua chó con?</p></a>
-            </div>
-            <br>
-            <div class="image" style="padding: 0px 10px;">
-               <img src="http://vanchuyenchomeo.com/wp-content/uploads/2020/04/cach-cham-cho-cai-dong-duc.jpg" alt="" style="height: 276px; width: 400px;">
-               <a href="https://www.petmart.vn/chu-ky-kinh-nguyet-cua-cho-cai-sa-lo-bao-nhieu-ngay" target="_blank"><p style="font-size: medium; color: black; ">
-                  Chu kỳ kinh nguyệt của chó cái là bao nhiêu ngày?</p></a>
-            </div>
-            <div class="image">
-                <img src="https://www.chamsocpet.com/wp-content/uploads/2021/04/cho-di-khap-khieng-vi-nguyen-nhan-gi-2.jpg" alt="" style="height: 276px; width: 400px;" >
-                <a href="https://www.petmart.vn/phai-lam-sao-khi-cho-bi-dau-chan-va-di-khap-khieng" target="_blank"><p style="font-size: medium; color: black; ">
-                   Phải làm gì khi chó bị đau chân và đi khập khiễng</p></a>
-             </div>
-         </div>
+     <div class="tt">
+        <div class="image">
+            <img src="image/tintuc2.jpg"alt="">
+        </div>
+        
+        <div class="content" >
+            <a href="https://thanhnien.vn/tin-vui-cho-nguoi-yeu-thu-cung-ban-se-song-tho-hon-post1449163.html"><h3>Tin vui cho người yêu thú cưng: Bạn sẽ sống thọ hơn!</h3></a> 
+            <p>Thực tế, nhiều nghiên cứu đã chỉ ra rằng việc sở hữu một chú chó có ý nghĩa quan trọng đối với sức khỏe, ngoại hình và tuổi thọ của bạn..</p>
+        </div>
+     </div>
+     <div class="tt">
+        
+        <div class="image">
+            <img src="image/tintuc1.jpg"alt="">
+        </div>
+        
+        <div class="content" >
+            <a href="https://congnghe.tuoitre.vn/nhat-ban-phat-minh-ung-dung-dinh-danh-hinh-anh-cho-thu-cung-20220607014537374.htm"><h3>Nhật Bản phát minh ứng dụng định danh hình ảnh cho thú cưng</h3></a> 
+            <p>TTO - Theo báo The Mainichi (Nhật Bản), ứng dụng có tên The Nose ID (tạm dịch: Nhận dạng mũi) sẽ giúp hỗ trợ người nuôi động vật xác...</p>
+        </div>
+     </div>
+     <div class="tt">
+        
+        <div class="image">
+            <img src="image/tt3.jpg"alt="">
+        </div>
+        
+        <div class="content" >
+            <a href="https://tuoitre.vn/me-do-dau-cua-nhung-chu-cun-cung-20220307145359249.htm"><h3>Mẹ đỡ đầu của những chú cún cưng</h3></a> 
+            <p>TTO - Trong một lần bị chó cắn, chị Trịnh Trần Hoàn Kim (quận Bình Tân, TP.HCM) có mong muốn hiểu hơn về tập tính, chinh phục và huấn luyện loài thú cưng. Đến nay đã được 4 năm...</p>
+        </div>
+     </div>
+     <div class="tt">
+        
+        <div class="image">
+            <img src="image/Bengal.jpg"alt="">
+        </div>
+        
+        <div class="content" >
+            <a href="https://www.bachhoaxanh.com/kinh-nghiem-hay/cac-benh-thuong-gap-o-meo-can-ghi-nho-khi-nuoi-meo-1346541"><h3>Mẹo cần nhớ khi nuôi mèo</h3></a> 
+            <p>Con người thường hay bị những bệnh vặt như ho, cảm, sốt,... do sự biến đổi thời tiết. Thì các bé mèo cũng dễ gặp vấn đề sức khỏe nếu không được chăm sóc kỹ lưỡng. Để phòng tránh những điều không mong muốn...</p>
+        </div>
+     </div>
  </section>
 
  

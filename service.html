@@ -22,16 +22,22 @@
     <a href="index.html" class="logo"><img src="image/Screenshot_1.png"alt=""></a>
 
     <nav class="navbar">
-        <a href="index.html">Trang chủ</a>
-        <a href="about.html">Giới thiệu</a>
-        <a href="pet.html">Thú cưng</a>
-        <a href="accessory.html">Phụ kiện</a>
-        <a href="service.html">Dịch vụ</a>
-        <a href="news.html">Tin tức</a>
-        <a href="contact.html">Liên hệ</a>
+        <ul class="main-menu">
+            <li> <a href="index.html">Trang chủ</a></li>
+            <li><a href="about.html">Giới thiệu</a></li>
+            <li> <a href="pet.html">Thú cưng
+                <ul class="sub-menu"></a>
+                    <li><a href="dog.html">Chó</a></li>
+                    <li><a href="cat.html">Mèo</a></li>
+                </ul>
+            </li>
+            <li> <a href="accessory.html">Phụ kiện</a></li>
+            <li><a href="service.html">Dịch vụ</a></li>
+            <li> <a href="news.html">Tin tức</a></li>
+            <li><a href="contact.html">Liên hệ</a></li>
+        </ul>
 
     </nav>
-
     <div class="icons">
         <div class="fas fa-bars" id="menu-btn"></div>
         <a href="#" class="fas fa-shopping-cart"></a>
@@ -40,13 +46,13 @@
 
     <form action="" class="login-form">
         <h3>Đăng nhập</h3>
-        <input type="email" name="" placeholder="Nhập địa chỉ email" id="" class="box">
-        <input type="password" name="" placeholder="Nhập mật khẩu" id="" class="box">
+        <input type="email" name="" placeholder="enter your email" id="" class="box">
+        <input type="password" name="" placeholder="enter your password" id="" class="box">
         <div class="remember">
             <input type="checkbox" name="" id="remember-me">
             <label for="remember-me">Ghi đăng nhập</label>
         </div>
-        <input type="submit" value="Đăng nhập" class="btn">
+        <input type="submit" value="sign in" class="btn">
         <div class="links">
             <a href="#">Quên mật khẩu?</a>
             <a href="#">Đăng ký</a>
@@ -129,7 +135,7 @@
                 <p> Bài tập vận động <span class="fas fa-check"></span> </p>
                 <p> Bữa ăn riêng <span class="fas fa-check"></span> </p>
             </div>
-            <div class="amount"><span>$</span>350</div>
+            <div class="amount"><span>500.000</span></div>
             <a href="#" class="btn"> Lựa chọn </a>
         </div>
 
